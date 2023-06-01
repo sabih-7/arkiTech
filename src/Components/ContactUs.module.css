@@ -1,0 +1,74 @@
+.banner{
+    background-image: url(../../public/img/contact-us-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay{
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #39486C 45.7%, #909090 7%);
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.headingColor{
+    color: #10a2ef;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.headingColor2{
+    color: #10a2ef;
+    text-transform: uppercase;
+}
+
+.bannerTextIner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    position: relative;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #10a2ef;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #10a2ef;
+}
+.icon:hover{
+    background-color: #fff;
+    color: #10a2ef;
+}
+.iconSocial:hover{
+    background-color: #fff;
+    color: #10a2ef;
+}
+
+.iconSocial{
+    width: 50px;
+    height: 50px;
+    background-color: #10a2ef;
+    color: #fff;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #10a2ef;
+    border-radius: 5px;
+}
